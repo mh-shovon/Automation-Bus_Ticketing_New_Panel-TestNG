@@ -72,7 +72,6 @@ public class SuperAdminPanelTestRunner extends Setup {
         Thread.sleep(2000);
     }
 
-
     @Test(priority = 5)
     public void doSuperAdminLoginWithValidPass() throws IOException, ParseException, InterruptedException {
         superAdminPanel = new SuperAdminPanel(driver);
