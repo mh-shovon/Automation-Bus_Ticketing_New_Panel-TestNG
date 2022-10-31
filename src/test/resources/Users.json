@@ -1,0 +1,31 @@
+[
+  {
+    "phone": "",
+    "password": ""
+  },
+
+  {
+    "phone": "01983285059",
+    "password": ""
+  },
+
+  {
+    "phone": "",
+    "password": "asdf1234"
+  },
+
+  {
+    "phone": "01983285058",
+    "password": "asdf1234"
+  },
+
+  {
+    "phone": "01983285059",
+    "password": "asdf123456"
+  },
+
+  {
+    "phone": "01983285059",
+    "password": "asdf1234"
+  }
+]
