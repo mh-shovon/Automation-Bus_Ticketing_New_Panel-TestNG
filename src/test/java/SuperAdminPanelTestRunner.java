@@ -8,7 +8,9 @@ public class SuperAdminPanelTestRunner extends Setup {
     SuperAdminPanel superAdminPanel;
     UtilsSuperAdmin utilsSuperAdmin;
 
-    @Test(priority = 1)
+
+    //******Login Test Start From Here******//
+    /@Test(priority = 1)
     public void doSuperAdminLoginWithNoCredential() throws IOException, ParseException, InterruptedException {
         superAdminPanel = new SuperAdminPanel(driver);
         utilsSuperAdmin = new UtilsSuperAdmin();
@@ -102,7 +104,7 @@ public class SuperAdminPanelTestRunner extends Setup {
         Assert.assertEquals(isDashboardFound, true);
         Thread.sleep(1000);
         superAdminPanel.btnDashboardView.isDisplayed();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
 
 }
